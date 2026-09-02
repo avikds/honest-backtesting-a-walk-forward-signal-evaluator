@@ -28,6 +28,15 @@ python scaffold.py
 - [x] **16.** deflate_pvalue
 - [x] **17.** backtest_report
 
----
+## Results
 
-Built on Deep-ML.
+```
+feature audit (True = leaks the future): {'momentum': False, 'rolling_z': False, 'full_sample_z': True}
+periods evaluated : 581
+net Sharpe        : 1.7369
+information coeff : -0.0778
+out-of-sample R2  : -0.0224
+permutation p     : 0.482
+deflated p (30x)  : 1.0
+verdict           : reject
+```
